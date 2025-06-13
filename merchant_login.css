@@ -1,0 +1,105 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(assect/login\ image.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x:-60px ;
+    min-height: 100vh;
+    border:20px solid rgb(250, 165, 7);
+    border-radius: 10px;
+}
+.merchant_container{
+    width:420px;
+    background-color: transparent;
+    border: 2px solid rgb(12, 12, 12);
+    color: white;
+    text-shadow: 0 0 5px rgb(205, 195, 79),0 0 10px rgb(206, 131, 70),0 0 15px rgb(229, 116, 116);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+}
+.merchant_container h1{
+    font-size: 36px;
+    text-align: center;
+}
+.merchant_container .merchant_contant{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.merchant_contant input{
+    padding-left: 15px;
+    font-size: large;
+    width: 100%;
+    height: 100%;
+    border-color:5px solid black;
+    border-radius :40px;
+}
+.merchant_contant i{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(5, 4, 4);
+    right: 20px;
+    top:30%;
+    cursor: pointer;
+}
+.merchant_container .merchant_forget{
+    display: flex;
+    justify-content: end;
+    font-size: 17px;
+}
+.merchant_forget a{
+    color: rgb(78, 55, 254);
+    text-decoration: none;
+}
+.merchant_forget a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.merchant_container .merchant_btn{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.merchant_btn a{
+    background-color: white;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+}
+
+.merchant_btn a:hover{
+    color: rgb(38, 20, 172);
+    text-decoration: none;
+
+}
+.merchant_container .merchant_register{
+    font-size: larger;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+}
+.merchant_container .merchant_register a{
+    color: rgb(78, 55, 254);
+    text-decoration: none;
+}
+.register a:hover{
+    color: blue;
+    text-decoration: underline;
+}
